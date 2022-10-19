@@ -17,12 +17,11 @@ const SingleItem = props => {
           <p className="title">{title}</p>
           <p className="url">{domainUrl}</p>
         </div>
-        <button className="button" onClick={onDelete} type="button">
+        <button className="button" onClick={onDelete} type="button" testid="delete">
           <img
             className="delete-but"
             alt="delete"
             src="https://assets.ccbp.in/frontend/react-js/delete-img.png"
-            testid="delete"
           />
         </button>
       </li>

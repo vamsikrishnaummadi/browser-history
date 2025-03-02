@@ -77,13 +77,12 @@ const initialHistoryList = [
     domainUrl: 'google.com',
   },
   {
-    id: 11,
+    id: 10,
     timeAccessed: '09:00 AM',
     logoUrl: 'https://assets.ccbp.in/frontend/react-js/google-img.png',
     title: 'Google',
     domainUrl: 'google.com',
   },
-
 ]
 
 // Replace your code here
